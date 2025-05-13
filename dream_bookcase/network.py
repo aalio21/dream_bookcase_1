@@ -19,5 +19,5 @@ def build_network_html(output_file="dream_bookcase_network.html"):
 
     net = Network(height="750px", width="100%", notebook=False)
     net.from_nx(G)
-    net.show(output_file)
+    net.write_html(output_file)
     print(f"Network graph written to {output_file}")
