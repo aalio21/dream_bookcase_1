@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 from .data import WORKS
 
-def plot_timeline(figsize=(12, 8), savepath=None):
+def plot_timeline(figsize=(12, 6), savepath=None):
     """
     Plot a horizontal timeline of publication years for all works.
     """
